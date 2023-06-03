@@ -1,0 +1,71 @@
+.menu{
+padding: 5px;
+background-color: rgb(166, 26, 105);
+/* text-align: right; */
+margin-top: 0px;
+display: flex;
+
+
+
+}
+
+.menu_bar{
+    width: 50%;
+    color: white;
+    text-align: left;
+   
+    
+}
+
+ .menu_head{
+    margin: 0px;
+ 
+
+} 
+.menu_comp{
+    width: 50%;
+    margin-left: 30%;
+   
+}
+
+.menu_home{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu_home:hover{
+   color: rgba(231, 250, 26, 0.896);
+} 
+
+
+.menu_about{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.menu_about:hover{
+    color: rgba(231, 250, 26, 0.896);
+}
+
+.menu_contact{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu_contact:hover{
+    color: rgba(231, 250, 26, 0.896);
+}
+
+.menu_skills{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu_skills:hover{
+    color: rgba(231, 250, 26, 0.896);
+}

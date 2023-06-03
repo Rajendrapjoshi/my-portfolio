@@ -1,0 +1,296 @@
+
+ #root{
+  background-color:black ;
+} 
+
+
+
+/* ============Home css================ */
+.home{
+color: white;
+display: flex;
+background-color: black;
+align-items: center;
+
+}
+
+.home_div{
+   width: 50%;
+   text-align: center;
+
+   }
+   .home_div img {
+    height: 100px;
+    height: 100px;
+    border-radius: 50px;
+   }
+
+  
+  .headingf_home{
+   
+    margin-bottom: 3px;
+
+  }
+  
+  .headings_home{
+      
+      margin-top: 3px;
+  } 
+  .home_image img {
+size: 50px;
+border: 2px solid;
+border-radius: 70%;
+margin-top: 20px;
+
+
+  }
+
+
+  /*======== Header css ========== */
+
+/* .cv_download{
+  text-decoration: none;
+} */
+
+.header a{
+  
+  text-decoration: none;
+  align-items: center;
+  color: aliceblue;
+ 
+
+}
+
+.cv_button{
+
+  background-color: rgb(166, 26, 105);
+  border: 3px solid;
+  border-radius: 7px;
+}
+
+
+
+/* ========Footer.js========== */
+
+.footer{
+  color:white;
+  background-color: black;
+  display: flex;
+  font-family: cursive;
+}
+
+.footer_left{
+  margin-left: 20px;
+  width: 50%;
+
+}
+.icon_home{
+  color: aliceblue;
+}
+
+.footer_rpara{
+  font-size: small;
+}
+
+
+/* ==========FooterSocial ========== */
+
+.footer_social a{
+
+  color: white;
+  padding: 10px;
+  
+
+}
+.hr_line{
+  background-color: black;
+}
+
+
+
+
+
+
+/* ========contact.js============ */
+
+.contact{
+  color: white;
+  background-color: black;
+  text-align: center;
+  
+}
+.contact input{
+  width: 40%;
+  padding: 10px;
+}
+
+ .contact_firstbox{
+  padding: 20px;
+  
+
+}
+
+.contact_secondbox{
+  padding: 20px;
+}
+
+.contact_thirdbox{
+  /* height: 100px; */
+  padding: 20px;
+  margin-left: 13px;
+
+
+}
+
+
+.contact_button{
+
+  /* margin-top: 30px; */
+  margin-right: 260px;
+  height: 40px;
+  width: 60px;
+
+  background-color: rgb(129, 250, 8);
+  border:2px solid;
+  border-radius: 10px;
+  font-weight: bolder;
+
+}
+
+
+/* =========about js========= */
+
+.about{
+background-color: black;
+color: white;
+text-align: center;
+display: flex;
+font-family:'Times New Roman', Times, serif;
+
+
+}
+.about_first{
+  width: 50%;
+  text-align: center;
+  /* margin-top: 10%; */
+}
+.about_second img{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+
+
+/* ==========skills js============== */
+
+.skills{
+  background-color: black;
+  color: white;
+  display: flex;
+
+}
+
+.skills_first{
+  width: 50%;
+  margin-left: 25px;
+}
+.skills_second img{
+  margin-top: 25px;
+  margin-right: 20px;
+  border-radius: 50px;
+}
+
+
+
+/* ==========================Media queries======================== */
+
+@media screen and (max-width:700px){
+
+  /* menu  media query */
+  .menu {
+    /* width: auto; */
+    /* height: auto; */
+    display: block;
+  }
+  .menu_bar{
+    /* width: 100%; */
+    
+  }
+  .menu_comp{
+
+   /* margin-left: 0px; */
+   text-align: left;
+   /* display:; */
+  }
+
+  .home{
+  display: block ;
+  
+}
+  .home_div{
+    text-align: center;
+    width: auto;
+  }
+  .home_image{
+    text-align: center;
+  }
+
+  .contact_button{
+   
+    margin-right: 0px;
+
+  }
+
+  .about{
+    display: block;
+  }
+
+  .about_first{
+    width: auto;
+    text-align: center;
+  }
+
+  .about_second{
+    text-align: center;
+  }
+
+  .skills{
+    display: block;
+  }
+  .skills_first{
+    width: auto;
+    text-align: center;
+    margin-left: 0px;
+   
+  }
+
+  .skills_first ul li{
+    list-style: none;
+
+  }
+  .skills_second{
+
+    text-align: center;
+  }
+  .skills_second img{
+    width: 200px;
+    height: 200px;
+    margin-right: 0px;
+  }
+
+.footer{
+
+  display: block;
+  text-align: center;
+  font-size: small;
+}
+   .footer_left{
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+
+   }
+
+}
